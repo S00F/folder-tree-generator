@@ -1,0 +1,5 @@
+# Ignore generated structure
+generated_structure/
+__pycache__/
+*.pyc
+*.log
