@@ -52,18 +52,26 @@ Open the tree_structure.txt file and modify the directory structure according to
 Example structure:
 
 ```
-root/
-├── folder1/
-│   ├── file1.txt
-│   ├── file2.txt
-│   └── subfolder1/
-│       ├── file3.txt
-│       └── file4.txt
-├── folder2/
-│   ├── file5.txt
-│   └── subfolder2/
-│       ├── file6.txt
-└── file7.txt
+spring-batch-demo/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           ├── config/
+│   │   │           │   └── BatchConfig.java
+│   │   │           ├── model/
+│   │   │           │   └── Person.java
+│   │   │           ├── repository/
+│   │   │           │   └── PersonRepository.java
+│   │   │           └── SpringBatchApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── persons.csv
+│   └── test/
+│       └── java/
+└── pom.xml
+
 ```
 5. Run the Script
 Run the script to generate the directory structure. Depending on your system:
